@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>* Viva plenamente *</title>
+  
+  <!-- Fonte Cinzel do Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      background-color: #000; /* Fundo preto */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: 'Cinzel', serif;
+      overflow: hidden;
+    }
+
+    .neon-text {
+      color: #fff;
+      font-size: 3em;
+      text-align: center;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      text-shadow:
+        0 0 5px #fff,
+        0 0 10px #fff,
+        0 0 20px #fff,
+        0 0 40px #00ffff,
+        0 0 80px #00ffff,
+        0 0 90px #00ffff;
+      animation: glow 2s ease-in-out infinite alternate;
+      padding: 0 10px;
+    }
+
+    @keyframes glow {
+      from {
+        text-shadow:
+          0 0 5px #fff,
+          0 0 10px #fff,
+          0 0 20px #fff,
+          0 0 40px #00ffff,
+          0 0 80px #00ffff,
+          0 0 90px #00ffff;
+      }
+      to {
+        text-shadow:
+          0 0 10px #fff,
+          0 0 20px #fff,
+          0 0 30px #fff,
+          0 0 60px #00ffff,
+          0 0 100px #00ffff,
+          0 0 120px #00ffff;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="neon-text"> Lembre-se de viver </div>
+</body>
+</html>
